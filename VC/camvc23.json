@@ -1,0 +1,28 @@
+{
+		"issuanceDate": "2024-02-27T10:01:30.959Z",
+		"credentialSubject": {
+			"phone": "+855656757157",
+			"registrationType": "L1",
+			"id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6Imd6Y0hlVTZNbWY4cTJybWh2ZEhON2lxdjF1WVJBNG5RX20xV0hXeEFneDgiLCJhbGciOiJSUzI1NiIsIm4iOiJqaFJEVEhDMzFKSGZRbVIxelZXSUEybGZkX3FXVlNoNzlQaENpb2JMWEE5dEpFb0VQS3NucWNOd0hlZTFUaUVlSWtZZXViVHE4bmM3Z0lYeGJTT0Vfb3dxeGZWYWNWbU0yOVNoWERkenZkYzNHcGFlLVc3UGpxWkN0aWtqODVoUjl1ekFpRHpVVEJJQURBNnVDRVJYcnJVeXdtdy1LT1d2bkZnTHRjYVpHMzlJN2NGV2lmUmVPcXdGX05PSEhoSVg5c2JvT0diSlM5VFpyTklKejYwbkNrMWJiYjMwYjhMREtBeFBNOWhkOGhfSDJoNTNZWUlvRGV2NW1SSG9jOThUb1ByUUVQV2hWN1d3M0JRVnY5clFDSkM2NzRCTmxFR3JzeG92VnZSdS05RXFoRk1qcTRwZTFtYktuNXB6X1V2YWtTSUN3VXpMYWRFbHhEUzN0NTlHVHcifQ=="
+		},
+		"id": "https://ida.mosip.net/credentials/c1047121-8972-4dd6-9202-77b6eba5ae52",
+		"proof": {
+			"type": "RsaSignature2018",
+			"created": "2024-02-27T10:01:30Z",
+			"proofPurpose": "assertionMethod",
+			"verificationMethod": "https://api.camdgc-qa2.mosip.net/.well-known/ida-public-key.json",
+			"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJTUVJiSmdubnoyOVd1cU9QTDVXd05ScnBVeE9NU2c0akNMbFZtajFyUjVZIiwiYWxnIjoiUFMyNTYifQ..L9zeDS9gjf62JOxKf65OZS5Vpm8AtzMMtPYrxZfmegZe1fJX4lrp149sX7A6kSewlIUWQo0AyF-6c17ZNU7MZ1VuXKtPiecbtxUF0xDPCAvZkvd9T4bBX3VMdZHTYAH-BjF9p_dCY-diVAjMhuD46F_APfuMcCzv7zjlSnSDT0ByR-1dRucLpkO7WUUG5Q7MwBzeuTpLtZpcCbT8lIpSX4d8CIl4hqeR9Dr85DJJPimGpx2hio_XV9ckpf_1eP5sKPuJokR1uQS8yHzoj69G2nwcQESfbFHHwfToyl03JH7OlPtGhLdfbKUOIavguy5JGnyKgYNf024rm1j_s9k5Ow"
+		},
+		"type": [
+			"VerifiableCredential",
+			"MOSIPVerifiableCredential"
+		],
+		"@context": [
+			"https://www.w3.org/2018/credentials/v1",
+			"https://api.camdgc-qa2.mosip.net/.well-known/mosip-ida-context.json",
+			{
+				"sec": "https://w3id.org/security#"
+			}
+		],
+		"issuer": "https://api.camdgc-qa2.mosip.net/.well-known/ida-controller.json"
+	}
