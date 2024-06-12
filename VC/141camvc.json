@@ -1,6 +1,4 @@
 {
-  "format": "ldp_vc",
-  "credential": {
     "issuanceDate": "2024-06-06T14:53:48.648Z",
     "credentialSubject": {
       "phone": "+8559359673",
@@ -31,4 +29,3 @@
     ],
     "issuer": "https://api.camdgc-qa2.mosip.net/.well-known/ida-controller.json"
   }
-}
