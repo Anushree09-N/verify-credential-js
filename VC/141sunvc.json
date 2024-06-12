@@ -1,0 +1,41 @@
+{
+  "format": "ldp_vc",
+  "credential": {
+    "id": "did:rcw:907e18b2-730e-4485-9db8-9212f256be94",
+    "type": [
+      "VerifiableCredential",
+      "InsuranceCredential"
+    ],
+    "proof": {
+      "type": "Ed25519Signature2020",
+      "created": "2024-06-06T14:55:05Z",
+      "proofValue": "z2ByuAt7E5KJSDAYNhEbtzXYgv3LSff1ziNj2tMPwN8Q8r3xw17EAa8xX63FfTNyVKLUKhsHX6UDizevTLtYdfwez",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:holashchand.github.io:test_project:32b08ca7-9979-4f42-aacc-1d73f3ac5322#key-0"
+    },
+    "issuer": "did:web:holashchand.github.io:test_project:32b08ca7-9979-4f42-aacc-1d73f3ac5322",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://holashchand.github.io/test_project/insurance-context.json",
+      "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "issuanceDate": "2024-06-06T14:55:04.933Z",
+    "expirationDate": "2024-07-06T14:55:04.870Z",
+    "credentialSubject": {
+      "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlJTQUtleUlEIiwibiI6InFuSS0zQlFkWGhhZ1Y5Wm1PNHR3dll0MjZMY0pLbV84NmVWdXVucHdELTRqenJibzBrR1BWU1BzTlVQVXVrWlJjc1U5SjFKQmM3aGM1REpDQ2ZIQ3llV1BHaUV0NXdwZEsyU3U0LWpnZG9SYkJvZ3FmSjNLNm9ZS1JkblNiQzd4bHhMYTY4QmVMYU1McEY0b3RndUp0MmxLWFNYWU9zN2w1Z2RpVW9ZMlFuVVRETEthX2tOZ3NjbEFHS1FnaG5qS3IwV2NuVmxudFZtOW80UDlodnczeEVuMUl6bmF4VjVSM0VPM0QxRVE0ci00cWpaUXJwRDJ6QXZjTnQ3eVJYaXlVOF9IQ2cwUFpQZXo5WnJoVEkyUDdwcDVGM2RVUGljRlZYR0xfM0l5VTQwa1Y0SjNOZzM2TFJkUlFmY1NHTGs1dVJpMTZnMC1EUElnRWYwdGVya09CdyJ9",
+      "dob": "2000-07-26",
+      "email": "abhishek@gmail.com",
+      "gender": "Male",
+      "mobile": "0123456789",
+      "benefits": [
+        "Critical Surgery",
+        "Full body checkup"
+      ],
+      "fullName": "Kaif Siddique",
+      "policyName": "Start Insurance Gold Premium",
+      "policyNumber": "654321",
+      "policyIssuedOn": "${date.format(\u0027yyyy-MM-dd\u0027, $formattedPolicyIssuedOn)}",
+      "policyExpiresOn": "${date.format(\u0027yyyy-MM-dd\u0027, $formattedPolicyExpiresOn)}"
+    }
+  }
+}
