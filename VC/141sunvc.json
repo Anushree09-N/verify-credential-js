@@ -1,6 +1,4 @@
 {
-  "format": "ldp_vc",
-  "credential": {
     "id": "did:rcw:907e18b2-730e-4485-9db8-9212f256be94",
     "type": [
       "VerifiableCredential",
@@ -38,4 +36,3 @@
       "policyExpiresOn": "${date.format(\u0027yyyy-MM-dd\u0027, $formattedPolicyExpiresOn)}"
     }
   }
-}
